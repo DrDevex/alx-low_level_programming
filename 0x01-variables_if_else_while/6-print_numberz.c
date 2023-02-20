@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit starting from 0 to 10
- * return - always 0 means success
+ * main- prints all single digit starting from 0 to 10
+ * Return: always 0 means success
  */
 
-int main()
+int main(void)
 {
 	int num = '0';
 

@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers of base 10
- * return = 0 (success)
+ * main- prints numbers of base 10
+ * Return: 0 (success)
  */
 
-int main()
+int main(void)
 {
 	int n = 0;
 

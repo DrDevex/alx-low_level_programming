@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints all letters except q and e
- * return - always 0 which means success
+ * main- Prints all letters except q and e
+ * Return: Always 0 which means success
  */
 
-int main()
+int main(void)
 {
 	char alphabet = 'a';
-	
+
 	while (alphabet <= 'z')
 	{
 		if ((alphabet != 'q') && (alphabet != 'e'))

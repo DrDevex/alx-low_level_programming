@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combination of single digit numbers
- * return - always 0 means sucess
+ * main- prints all possible combination of single digit numbers
+ * Return: always 0 means sucess
  */
 
-int main()
+int main(void)
 {
 	int n = '0';
 
@@ -21,5 +21,5 @@ int main()
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }

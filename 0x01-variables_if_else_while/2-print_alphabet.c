@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - is the function and when the compilation start it prints lowercase of a-z
- * Return - Always 0 which means Success
+ * main- is the function and prints a-z
+ * Return:  Always 0 which means Success
  */
 
-int main()
+int main(void)
 {
 	char alphabet = 'a';
 

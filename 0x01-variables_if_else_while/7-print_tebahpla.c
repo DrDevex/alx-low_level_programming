@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - outputs the alphabets in inverse
- * return - 0 means success
+ * main- outputs the alphabets in inverse
+ * Return:- 0 means success
  */
 
-int main()
+int main(void)
 {
 	char alpha = 'z';
 
