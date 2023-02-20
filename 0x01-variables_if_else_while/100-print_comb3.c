@@ -7,39 +7,31 @@
 
 int main(void)
 {
-	int num;
-	int num1;
+	int num = '0';
+	int num1 = '0';
 
-	for (num = '0'; num < '9'; num++)
+	while (num1 <= '9')
 	{
-		for (num1 = '0'; num1 <= '9'; num1++)
+		while (num2 <= '9')
 		{
-			if (num == '0' && num1 < '1')
-				continue;
-			if (num == '1' && num1 < '2')
-				continue;
-			if (num == '2' && num1 < '3')
-				continue;
-			if (num == '3' && num1 < '4')
-				continue;
-			if (num == '4' && num1 < '5')
-				continue;
-			if (num == '5' && num1 < '6')
-				continue;
-			if (num == '6' && num1 < '7')
-				continue;
-			if (num == '7' && num1 < '8')
-				continue;
-			if (num == '8' && num1 < '9')
-				continue;
-			putchar(num);
-			putchar(num1);
-			if (num == '8' && num1 < '9')
-				break;
-			putchar(',');
-			putchar(' ');
+			if (!(num1 > num2 || num1 == num2))
+			{
+				putchar(num1);
+				putchar(num2);
+				if (num1 == '8' && num2 == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			num2++;
 		}
+		num2 = '0';
+		num1++;
 	}
-	putchar('\n');
 	return (0);
 }
