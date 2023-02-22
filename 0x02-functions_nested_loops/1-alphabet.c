@@ -5,7 +5,7 @@
  * Return: 1 means it runs success and returns -1 if fail
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char i = 'a';
 
@@ -15,6 +15,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
