@@ -5,7 +5,7 @@
  * Return: 1 means it runs success and returns -1 if fail
  */
 
-void print_alphabet(void) //main function and function prototype from main.h
+void print_alphabet(void)
 {
 	char i = 'a';
 
